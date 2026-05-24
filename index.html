@@ -677,14 +677,16 @@
     background: #111;
     padding: 40px 48px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    gap: 16px;
   }
 
   .footer-copy {
     font-size: 12px;
     color: var(--grey);
     letter-spacing: 0.05em;
+    text-align: center;
   }
 
   .footer-stripe {
@@ -1116,10 +1118,11 @@
 
   /* Footer links */
   .footer-links {
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: center;
     gap: 8px;
-    margin-left: 20px;
+    margin-top: 8px;
   }
 
   .footer-sep {
